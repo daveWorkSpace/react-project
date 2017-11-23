@@ -1,0 +1,75 @@
+.layout {
+  width: 100%;
+  height: 100%;
+  .header {
+    height: 48px;
+    width: 100%;
+    overflow: hidden;
+    background: #020C2B;
+    text-align: center;
+    div {
+      float: left;
+    }
+    .div1 {
+      width: 180px;
+      span {
+        display: inline-block;
+        height: 48px;
+        vertical-align: middle;
+      }
+    }
+    .div2 {
+      color: #ffffff;
+      height: 27.5px;
+      font-size: 16px;
+      margin-top: 10px;
+      padding:0 0 0 17px;
+      line-height: 27.5px;
+      border-left: 1px solid rgba(255,255,255,0.4);
+      overflow: hidden;
+      .user {
+        float: right;
+        right: 0px;
+        position: absolute;
+        font-size: 12px;
+        font-family: "PingFang SC", "Helvetica Neue For Number", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+        font-weight: 100;
+        top: 0px;
+        padding:11px 20px 0px 20px;
+        height: 48px;
+        z-index: 5;
+        .logout{
+          li {
+            background: red!important;
+          }
+        }
+      }
+      .user:hover {
+        background: #182241;
+      }
+
+    }
+    .img {
+      width: 50px;
+      height: 32px;
+      vertical-align: middle;
+      margin: 0 auto;
+    }
+  }
+  .navbox {
+    height:calc(100% - 48px);
+  }
+  .menu {
+    width: 180px;
+    background: #172241;
+    li {
+      font-weight: 100;
+			a:visited, a:focus {
+				text-decoration: none;
+			}
+    }
+  }
+  .contents {
+    padding: 8px 16px 8px 16px;
+  }
+}
